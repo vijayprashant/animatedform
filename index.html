@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Aurora |Mindease Companion</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="input-container">
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="Name">
+                  </div> 
+<!-- Gender Selection with Icons -->
+<div class="gender-container">
+  <label class="gender-option">
+    <input type="radio" name="gender" value="male">
+    <span class="gender-icon">♂</span>
+    <span class="gender-text">Male</span>
+  </label>
+
+  <label class="gender-option">
+    <input type="radio" name="gender" value="female">
+    <span class="gender-icon">♀</span>
+    <span class="gender-text">Female</span>
+  </label>
+
+  <label class="gender-option">
+    <input type="radio" name="gender" value="other">
+    <span class="gender-icon">⚥</span>
+    <span class="gender-text">Other</span>
+  </label>
+</div>
+
+
+                  <div class="input-container">
+                    <i class="fa fa-birthday-cake"></i>
+                    <input type="number" placeholder="Age">
+                  </div>
+                  
+                  <div class="input-container">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" placeholder="Email">
+                  </div>
+                  
+                  <div class="input-container">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                  </div>
+                <a href="">Already an Aurorian?</a>
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="input-icon">
+                    <i class="fa fa-envelope icon"></i>
+                    <input type="email" placeholder="Email">
+                  </div>
+                  
+                  <div class="input-icon">
+                    <i class="fa fa-lock icon"></i>
+                    <input type="password" placeholder="Password">
+                  </div>
+                  
+                <a href="http://127.0.0.1:5500/index.html">Forgot Your Password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Aurorians😊</h1>
+                    <p>Your friendly health companion is just a click away..</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hey,Hi!<br></h1>
+                    <h1><br>New to Aurora😉<br></h1>
+                    <p>Let's get started...</p>
+                    
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
